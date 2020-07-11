@@ -1,1 +1,2 @@
-TinDog Starting Files
+Sami's Resume
+HTML | CSS | Bootstrap
