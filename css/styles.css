@@ -1,0 +1,267 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-top: 100px;
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* title section */
+#title {
+  background-color: #58b4ae;
+}
+
+.title-p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.title-image {
+  width: 40%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  right: 20%;
+  border-radius: 100%;
+  margin-bottom: 3%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Skills Section */
+
+#skills {
+  text-align: center;
+  background-color: #fff;
+}
+
+.web-skills {
+  margin: 3% auto;
+  width: 100%;
+}
+.web-image {
+  width: 30%;
+  padding: 5%;
+}
+
+.skill-title {
+  padding-top: 5%;
+}
+.mobile-skills {
+  margin: 3% auto;
+}
+.mobile-image {
+  width: 40%;
+  padding: 5%;
+}
+
+.lang {
+  margin: 3% auto;
+  width: 100%;
+}
+
+.lang-image {
+  width: 30%;
+  padding: 5%;
+}
+
+.python-image {
+  width: 30%;
+}
+
+/* Project Section */
+
+#project {
+  text-align: center;
+  background-color: #58b4ae;
+}
+
+.project-image {
+  width: 10%;
+  /* border-radius: 50%; */
+  margin: 20px;
+}
+
+.maps-image {
+  width: 10%;
+}
+
+#project h2 {
+  color: #fff;
+}
+
+#project p {
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+
+
+
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#work-exp {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* cta section */
+
+#cta {
+  background: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.cta-btn {
+  margin: 3% 1% 5% 0;
+}
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  padding: 7% 10%;
+  background-color: #58b4ae;
+}
+
+#footer p {
+  color: #fff;
+}
+
+.fic {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.fic:hover {
+  color: blue;
+}
